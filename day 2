@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+int main(){
+/*
+  int age = 20;
+  cout << "Age = " << age;
+  float price = 99.99;
+  cout << "Price = " << price;
+  double pi = 3.14159265359;
+  cout << pi;
+  char grade = 'A';
+  cout << "Grade = " << grade;
+  bool isPassed = true;
+  cout << isPassed;
+  string name = "Vishesh";
+  cout << "Name = " << name;
+  unsigned int marks = 95;
+  cout << marks;
+  int age;
+  float salary;
+  char grade;
+  string name;
+
+  cin >> age;
+  cin >> salary;
+  cin >> grade;
+  cin >> name;
+
+  cout << age << endl;
+  cout << salary << endl;
+  cout << grade << endl;
+  cout << name << endl;
+  */
+
+  cout << sizeof(int) << endl;
+  cout << sizeof(float) << endl;
+  cout << sizeof(double) << endl;
+  cout << sizeof(char) << endl;
+  cout << sizeof(bool) << endl;
+
+  return 0;
+}
+  
